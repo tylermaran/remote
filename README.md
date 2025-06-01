@@ -14,11 +14,11 @@ A Terraform-based solution for spinning up remote desktop environments on AWS wi
 ## Architecture
 
 ```
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
+┌─────────────────┐    ┌───────────────────┐    ┌─────────────────┐
 │   Your MacBook  │────│  AWS EC2 Instance │────│ Persistent EBS  │
-│                 │    │                  │    │     Volume      │
-│  VNC/RDP Client │    │  Ubuntu + XFCE   │    │                 │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
+│                 │    │                   │    │     Volume      │
+│  VNC/RDP Client │    │  Ubuntu + XFCE    │    │                 │
+└─────────────────┘    └───────────────────┘    └─────────────────┘
 ```
 
 ## Quick Start
